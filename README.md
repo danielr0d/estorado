@@ -16,5 +16,5 @@ and maybe some other modules, you can handle it.
 just run in your favorite ide, or in terminal:
 
 ```
-> $python3 estorado.py
+> python3 estorado.py
 ```
