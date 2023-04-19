@@ -16,9 +16,9 @@ my_icon = QIcon(my_pixmap)
 window = QWidget()
 
 window.setWindowIcon(my_icon)
-window.setFixedSize(window.size())
 
-window.setGeometry(0, 0, 420, 370)
+window.setGeometry(0, 0, 405, 370)
+window.setFixedSize(window.size())
 window.setWindowTitle("ESTORADO")
 
 
