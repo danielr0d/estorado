@@ -1,8 +1,7 @@
 # estorado
-project made for worthless people to anoy they friends with loud sounds, thx sound effects on discord.
 
 up and running
-audio settings not working, but i will fix this asap (i guess).<br>
+audio settings are broken, but i will fix this asap (i guess).<br>
 if the winds blows in a good way, im gonna realese a dmg too.
 
 <h1>prerequisites:</h1>
