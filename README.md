@@ -4,7 +4,7 @@ up and running
 audio settings are broken, but i will fix this asap (i guess).<br>
 if the winds blows in a good way, im gonna realese a dmg too.
 
-<h1>prerequisites:</h1>
+<h1>pre-requisites:</h1>
 <a href="https://www.python.org/">python3</a><br>
 <a href="https://ffmpeg.org/">ffmpeg</a> or <a href="https://www.npmjs.com/package/avconv">avconv</a> <br>
 <a href="https://pypi.org/project/PySide6/">pyside6</a><br>
