@@ -1,7 +1,12 @@
 # Estorado
 
 
-  ![Estorado Logo](https://i.imgur.com/mCmFjMb.jpeg)
+
+  <div style="text-align: center;">
+    <img src="https://i.imgur.com/mCmFjMb.jpeg" alt="Estorado Logo" width="300"/>
+  </div>
+  <br/>
+
 
 
 
