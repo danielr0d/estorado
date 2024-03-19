@@ -1,19 +1,27 @@
-# estorado
+# Estorado
 
-up and running
-audio settings are broken, but i will fix this asap (i guess).<br>
-if the winds blows in a good way, im gonna realese a dmg too.
+**Objective:** Boost audio files to be louder.
 
-<h1>pre-requisites:</h1>
-<a href="https://www.python.org/">python3</a><br>
-<a href="https://ffmpeg.org/">ffmpeg</a> or <a href="https://www.npmjs.com/package/avconv">avconv</a> <br>
-<a href="https://pypi.org/project/PySide6/">pyside6</a><br>
-and maybe some other modules, you can handle it.
+## Pre-requisites:
 
+Before running Estorado, make sure you have the following dependencies installed:
 
-<h1>run:</h1>
-just run in your favorite ide, or in terminal:
+- [Python 3](https://www.python.org/)
+- [FFmpeg](https://ffmpeg.org/) or [avconv](https://www.npmjs.com/package/avconv)
+- [PySide6](https://pypi.org/project/PySide6/)
 
+You may also require additional modules, but those can be handled as needed.
+
+## How to run:
+
+To execute Estorado, follow these steps:
+
+1. Open your favorite IDE or terminal.
+2. Run the following command:
 ```
 > python3 estorado.py
 ```
+
+Feel free to contribute and improve this README further!
+
+
