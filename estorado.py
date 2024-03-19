@@ -8,9 +8,11 @@ from time import sleep
 from threading import Thread
 import sys
 
+from src.components.convert_button import ConvertButton
+
 app = QApplication(sys.argv)
 
-my_pixmap = QPixmap("icon.jpg")
+my_pixmap = QPixmap("src/res/icon.jpg")
 my_icon = QIcon(my_pixmap)
 
 window = QWidget()
@@ -71,16 +73,23 @@ def convert():
 
     status()
 
+
 btn = QPushButton("Choose File (MP3 Only)", window)
 btn.clicked.connect(openfile)
-btn.setFont(QFont("SF Pro", 10, QFont.Black))
-btn.move(9, 30)
-btn.resize(385, 30)
-btn.show()
 
 sett = QLabel("Settings", window)
 sett.move(10, 100)
 sett.setFont(QFont("SF Pro", 12, QFont.Black))
+sett_width = 100  # Set this to the width of your QLabel
+sett_height = 60  # Set this to the height of your QLabel
+
+window_width = window.frameGeometry().width()
+window_height = window.frameGeometry().height()
+
+x = (window_width - sett_width) / 2
+y = sett_height
+
+sett.setGeometry(x, y, sett_width, sett_height)
 sett.show()
 
 lp = QLabel("Lowpass Cutoff (Hz):", window)
@@ -148,12 +157,7 @@ b3.setChecked(False)
 b3.move(364, 187)
 b3.show()
 
-btn2 = QPushButton("Convert", window)
-btn2.clicked.connect(runcon)
-btn2.setFont(QFont("SF Pro", 10, QFont.Black))
-btn2.resize(385, 70)
-btn2.move(10, 235)
-btn2.show()
+btn2 = ConvertButton(window, runcon)
 
 nb3 = QLabel("FILE WILL BE EXPORTED ON estorado.py LOCATION", window)
 nb3.move(10, 310)
