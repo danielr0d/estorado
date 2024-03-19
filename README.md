@@ -1,5 +1,10 @@
 # Estorado
 
+
+  ![Estorado Logo](https://i.imgur.com/mCmFjMb.jpeg)
+
+
+
 **Objective:** Boost audio files to be louder.
 
 ## Pre-requisites:
