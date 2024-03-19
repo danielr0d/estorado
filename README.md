@@ -32,6 +32,4 @@ To execute Estorado, follow these steps:
 > python3 estorado.py
 ```
 
-Feel free to contribute and improve this README further!
-
 
