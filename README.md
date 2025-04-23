@@ -10,7 +10,7 @@
 
 
 
-**Objective:** Boost audio files to be louder.
+**Objective:**  Make audio files louder.
 
 ## Pre-requisites:
 
