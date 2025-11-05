@@ -1,35 +1,34 @@
 # Estorado
 
+A tiny GUI tool to increase the loudness of audio files.
 
+## Prerequisites
 
-  <div style="text-align: center;">
-    <img src="https://i.imgur.com/mCmFjMb.jpeg" alt="Estorado Logo" width="300"/>
-  </div>
-  <br/>
+- Python 3.8+
+- FFmpeg (installed and available on your PATH)
+- PySide6 (GUI library)
 
+## Quick start
 
+1. (Optional) Create and activate a virtual environment:
 
+   python3 -m venv venv
+   source venv/bin/activate
 
-**Objective:**  Make audio files louder.
+2. Install the GUI dependency:
 
-## Pre-requisites:
+   pip install PySide6
 
-Before running Estorado, make sure you have the following dependencies installed:
+3. Run Estorado:
 
-- [Python 3](https://www.python.org/)
-- [FFmpeg](https://ffmpeg.org/) or [avconv](https://www.npmjs.com/package/avconv)
-- [PySide6](https://pypi.org/project/PySide6/)
+   python3 estorado.py
 
-You may also require additional modules, but those can be handled as needed.
+## Notes
 
-## How to run:
+- Install FFmpeg through your package manager (e.g., apt, dnf, brew).
+- See `src/` for implementation details.
 
-To execute Estorado, follow these steps:
+## License & Contact
 
-1. Open your favorite IDE or terminal.
-2. Run the following command:
-```
-> python3 estorado.py
-```
-
+See the repository for license information. For issues or questions, open an issue on GitHub.
 
