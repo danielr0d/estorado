@@ -27,8 +27,3 @@ A tiny GUI tool to increase the loudness of audio files.
 
 - Install FFmpeg through your package manager (e.g., apt, dnf, brew).
 - See `src/` for implementation details.
-
-## License & Contact
-
-See the repository for license information. For issues or questions, open an issue on GitHub.
-
