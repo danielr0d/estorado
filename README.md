@@ -23,7 +23,3 @@ A tiny GUI tool to increase the loudness of audio files.
 
    python3 estorado.py
 
-## Notes
-
-- Install FFmpeg through your package manager (e.g., apt, dnf, brew).
-- See `src/` for implementation details.
